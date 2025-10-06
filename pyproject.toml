@@ -8,10 +8,7 @@ authors = [
     { name = "LoganSelner", email = "loganselner@gmail.com" }
 ]
 requires-python = ">=3.13,<3.14"
-dependencies = [
-    "fastapi",
-    "uvicorn[standard]",
-]
+dependencies = []
 
 [dependency-groups]
 dev = [
@@ -28,10 +25,10 @@ requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/app"]
+packages = ["src/algos", "src/coursera"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src/app", "README.md", "pyproject.toml", "LICENSE"]
+include = ["src/algos", "src/coursera", "README.md", "pyproject.toml", "LICENSE"]
 
 [tool.black]
 line-length = 88
@@ -46,7 +43,7 @@ select = ["E", "F", "W", "I", "UP", "B", "RUF"]
 ignore = []
 
 [tool.ruff.lint.isort]
-known-first-party = ["app"]
+known-first-party = ["algos", "coursera"]
 combine-as-imports = true
 force-sort-within-sections = true
 
