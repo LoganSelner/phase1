@@ -1,7 +1,7 @@
 [project]
-name = "phase0"
+name = "phase1"
 version = "0.1.0"
-description = "Phase 0 scaffolding"
+description = "Phase 1 labs"
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [

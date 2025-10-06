@@ -1,4 +1,4 @@
-![CI](https://github.com/LoganSelner/phase0/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/LoganSelner/phase1/actions/workflows/ci.yml/badge.svg)
 
 # FastAPI + uv template
 

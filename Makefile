@@ -8,10 +8,10 @@ UV      ?= uv
 HOST    ?= 0.0.0.0
 PORT    ?= 8000
 APP     ?= app.main:app
-IMAGE   ?= phase0-app
+IMAGE   ?= phase1-app
 TAG     ?= local
 FULL_IMAGE := $(IMAGE):$(TAG)
-CONTAINER_NAME ?= phase0
+CONTAINER_NAME ?= phase1
 DOCKER  ?= docker
 
 # --- Phony ---
