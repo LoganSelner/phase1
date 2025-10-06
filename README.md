@@ -80,9 +80,9 @@ Run `make help` to see everything. Common targets:
 .
 ├─ src/algos/
 │  ├─ __init__.py
-│  └─ *.py          # Algorithm code
+│  └─ *.py             # Algorithm code
 ├─ tests/
-│  └─ test_*.py      # tests
+│  └─ test_*.py        # tests
 ├─ pyproject.toml      # deps, tool config, build backend
 ├─ uv.lock             # lockfile (commit this)
 ├─ Makefile            # dev workflow
