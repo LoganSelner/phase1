@@ -28,7 +28,7 @@ build-backend = "hatchling.build"
 packages = ["src/algos", "src/coursera"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src/algos", "src/coursera", "README.md", "pyproject.toml", "LICENSE"]
+include = ["src/algos", "src/coursera", "README.md", "pyproject.toml"]
 
 [tool.black]
 line-length = 88
