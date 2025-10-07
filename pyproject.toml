@@ -3,7 +3,6 @@ name = "phase1"
 version = "0.1.0"
 description = "Phase 1 labs"
 readme = "README.md"
-license = { file = "LICENSE" }
 authors = [
     { name = "LoganSelner", email = "loganselner@gmail.com" }
 ]
