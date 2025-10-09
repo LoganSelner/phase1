@@ -11,4 +11,4 @@ def sum_of_digits(a: int, b: int) -> int:
 
 if __name__ == "__main__":
     a, b = map(int, input().split())
-    print({sum_of_digits(a, b)})
+    print(sum_of_digits(a, b))
