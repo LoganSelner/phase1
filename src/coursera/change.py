@@ -1,4 +1,4 @@
-def change(money):
+def change(money: int) -> int:
     """Compute the minimum number of coins needed to change the given value.
 
     Args:
